@@ -1,3 +1,13 @@
+<?php
+
+foreach ($articles as $article) {
+    unset($article->generated_html);
+}
+
+echo json_encode(compact('articles'));
+?>
+
+<!--
 <h1>Blog articles</h1>
 <p><?= $this->Html->link("Add Article", ['action' => 'add']) ?></p>
 <table>
@@ -7,9 +17,9 @@
         <th>Created</th>
         <th>Action</th>
     </tr>
-
+-->
 <!-- Here's where we iterate through our $articles query object, printing out article info -->
-
+<!--
 <?php foreach ($articles as $article): ?>
     <tr>
         <td><?= $article->id ?></td>
@@ -31,3 +41,4 @@
 <?php endforeach; ?>
 
 </table>
+-->
