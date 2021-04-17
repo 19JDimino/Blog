@@ -24,6 +24,14 @@
 use Cake\Routing\Route\DashedRoute;
 use Cake\Routing\RouteBuilder;
 
+
+$routes->prefix('api', function (RouteBuilder $route) {
+    $route->setExtensions(['json', 'xml']);
+    $route->resources('Articles');
+    $route->resources('Users');
+    $route->connect('/users/register', ['controller' => 'Users', 'action' => 'add', 'prefix' => 'api']);
+    $route->fallbacks('InflectedRoute');
+});
 /*
  * The default class to use for all routes
  *
@@ -45,7 +53,7 @@ use Cake\Routing\RouteBuilder;
 $routes->setRouteClass(DashedRoute::class);
 
 $routes->scope('/', function (RouteBuilder $builder) {
-    $builder->setExtensions(['jsom']);
+    $builder->setExtensions(['json']);
     $builder->resources('Articles');
     /*
      * Here, we are connecting '/' (base path) to a controller called 'Pages',

@@ -17,7 +17,8 @@
             <fieldset>
                 <legend><?= __('Add User') ?></legend>
                 <?php
-                    echo $this->Form->control('email');
+                //Changed from email to username
+                    echo $this->Form->control('username');
                     echo $this->Form->control('password');
                     echo $this->Form->control('role');
                 ?>

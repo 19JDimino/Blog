@@ -1,0 +1,31 @@
+SSH:
+    host: 206.189.202.188
+    username: jdimino
+    password: RaBLeRymaNDIngelACip
+    app directory: /var/dev_env/jdimino/app
+
+MySQL:
+    host: 206.189.202.188
+    port: 2514
+    username: jdimino
+    password: DomORItNiSeISHOusECE
+    database: cake
+
+Application URL:
+    http://206.189.202.188:2513
+
+docker exec -it jdimino_my-app-cakephp_1 /bin/bash
+
+{
+  "data": {
+    "id": 13,
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJleHAiOjE2MTkyNzc1MzR9.MwJHCYEdyjgSIzdBhphm2WBgKvqFZwppsFxmJzPPuiE"
+  }
+}
+
+  DomO234234RItNiSeISH3442OusasdECE
+  DomO234234RItNiSeISH3442OusasdECE
+
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Mn0.q2chPMiKRzwrO3v48fi90HyJPHDLOXtwEKr7EcU3GPk
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Mn0.q2chPMiKRzwrO3v48fi90HyJPHDLOXtwEKr7EcU3GPk
+  

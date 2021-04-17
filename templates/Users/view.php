@@ -19,8 +19,9 @@
             <h3><?= h($user->id) ?></h3>
             <table>
                 <tr>
-                    <th><?= __('Email') ?></th>
-                    <td><?= h($user->email) ?></td>
+                //  Changed from email to username
+                    <th><?= __('Username') ?></th>
+                    <td><?= h($user->username) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Password') ?></th>

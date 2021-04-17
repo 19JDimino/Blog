@@ -82,6 +82,10 @@ class Application extends BaseApplication
     {
         $this->addPlugin('ADmad/JwtAuth');
 
+        $this->addPlugin('Crud');
+
+        $this->addPlugin('ADmad/JwtAuth');
+
         // Call parent to load bootstrap from files.
         parent::bootstrap();
 
